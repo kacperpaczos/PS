@@ -1,0 +1,82 @@
+.square {
+    min-width: 50px;
+    height: 220px;
+    background-color: #f9c440;
+    margin: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.3s ease;
+}
+
+div[role=books] .square {
+    min-width: 50px;
+    height: 450px;
+    background-color: #f9c440;
+    margin: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.3s ease;
+}
+
+.square .content-background {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition-timing-function: linear;
+    transition-delay: 10ms;
+    transition: all 300ms;
+}
+
+.square .content-background .content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 6px;
+    color: white;
+}
+
+.square h3 {
+    width: 100%;
+}
+
+.square p {
+    width: 100%;
+}
+
+.square:hover {
+    transform: scale(1.15, 1.15);
+    z-index: 100;
+}
+
+.square:hover .content-background {
+    opacity: 1;
+}
+
+.left-arow {
+    position: absolute;
+    left: 0px;
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.right-arow {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.desc {
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 1.15rem;
+}

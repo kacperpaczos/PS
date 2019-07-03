@@ -1,0 +1,57 @@
+#main-page {
+    margin-top: 10vh;
+}
+
+#main-page .triangle-bottom-right {
+    border-top: 17.5vh solid var(--primary-bg-color);
+}
+
+#main-page .triangle-top-left {
+    border-bottom: 17.5vh solid var(--primary-bg-color);
+}
+
+#main-page .block p {
+    text-align: center;
+}
+
+#main-page .slogan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.shape {
+    margin-top: 35vh;
+    width: 120vw;
+    height: 50vh;
+    position: relative;
+    left: -20vw;
+    background-color: var(--primary-bg-color);
+    transform: rotate3d(1, -1, -0.2, 15deg);
+    outline: 1px solid transparent;
+    animation-name: wave-animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate3d(1, -1, -0.3, 15deg);
+    }
+
+    100% {
+        transform: rotate3d(1, -1, -0.15, 15deg);
+    }
+}
+
+.shpe-normal {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 40vh;
+    transform: rotate3d(-1, -1, 0.1, 15deg);
+}*/

@@ -1,0 +1,63 @@
+:root {
+    --primary-bg-color: #ffeb3b;
+    --secondary-bg-color: #263238;
+    --primary-text-color: #212121;
+    --secondary-text-color: white;
+}
+
+html {
+    font-size: 0.9rem;
+}
+
+body {
+    //font-family: Roboto;
+    margin: 0px;
+    border: 0px;
+    background-color: var(--secondary-bg-color);
+    overflow-x: hidden;
+}
+
+.page {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.block {
+    min-height: 45vh;
+    width: 100%;
+}
+
+.triangle-top-left {
+    border-right: 100vw solid transparent;
+    border-bottom: 17.5vh solid var(--primary-bg-color);
+}
+
+.triangle-bottom-right {
+    border-left: 100vw solid transparent;
+    border-top: 17.5vh solid var(--primary-bg-color);
+}
+
+.primary-bg-color {
+    background-color: var(--primary-bg-color);
+}
+
+.secondary-bg-color {
+    background-color: var(--secondary-bg-color);
+}
+
+.primary-border-color {
+    border-color: var(--primary-bg-color);
+}
+
+.secondary-border-color {
+    border-color: var(--secondary-bg-color);
+}
+
+div p.lead {
+    max-width: 800px;
+    margin: auto;
+}
+
+.initial {
+    color: #ffeb3b;
+}
