@@ -59,100 +59,500 @@
     background-color: #1a237e;
 }*/
 
-.bridge:nth-child(2) {
-    width: 0;
-    height: 0;
-    border-left: 100vw solid transparent;
-    border-bottom: 17.5vh solid #3f51b5;
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    .bridge:nth-child(2) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 17.5vh solid #3f51b5;
+    }
+
+    .bridge:nth-child(4) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #3f51b5;
+        border-bottom: 17.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(6) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-top: 17.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(8) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-bottom: 17.5vh solid #283593;
+    }
+
+    .bridge:nth-child(10) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid #283593;
+        border-bottom: 17.5vh solid transparent;
+    }
+
+    .triangle-top-right-c1 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 17.5vh solid #3f51b5;
+    }
+
+    .triangle-bottom-right-c1 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 17.5vh solid #3f51b5;
+    }
+
+    .triangle-top-left-c2 {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 17.5vh solid #3949ab;
+    }
+
+    .triangle-bottom-left-c2 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-right: 100vw solid transparent;
+        border-top: 17.5vh solid #3949ab;
+    }
+
+    .triangle-top-right-c3 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 17.5vh solid #303f9f;
+    }
+
+    .triangle-bottom-right-c3 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 17.5vh solid #303f9f;
+    }
 }
 
-.bridge:nth-child(4) {
-    width: 0;
-    height: 0;
-    border-right: 100vw solid #3f51b5;
-    border-bottom: 17.5vh solid #3949ab;
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .bridge:nth-child(2) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 16.5vh solid #3f51b5;
+    }
+
+    .bridge:nth-child(4) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #3f51b5;
+        border-bottom: 16.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(6) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-top: 16.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(8) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-bottom: 16.5vh solid #283593;
+    }
+
+    .bridge:nth-child(10) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid #283593;
+        border-bottom: 16.5vh solid transparent;
+    }
+
+    .triangle-top-right-c1 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 16.5vh solid #3f51b5;
+    }
+
+    .triangle-bottom-right-c1 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 16.5vh solid #3f51b5;
+    }
+
+    .triangle-top-left-c2 {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 16.5vh solid #3949ab;
+    }
+
+    .triangle-bottom-left-c2 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-right: 100vw solid transparent;
+        border-top: 16.5vh solid #3949ab;
+    }
+
+    .triangle-top-right-c3 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 16.5vh solid #303f9f;
+    }
+
+    .triangle-bottom-right-c3 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 16.5vh solid #303f9f;
+    }
 }
 
-.bridge:nth-child(6) {
-    width: 0;
-    height: 0;
-    border-right: 100vw solid #303f9f;
-    border-top: 17.5vh solid #3949ab;
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bridge:nth-child(2) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 15.5vh solid #3f51b5;
+    }
+
+    .bridge:nth-child(4) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #3f51b5;
+        border-bottom: 15.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(6) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-top: 15.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(8) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-bottom: 15.5vh solid #283593;
+    }
+
+    .bridge:nth-child(10) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid #283593;
+        border-bottom: 15.5vh solid transparent;
+    }
+
+    .triangle-top-right-c1 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 15.5vh solid #3f51b5;
+    }
+
+    .triangle-bottom-right-c1 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 15.5vh solid #3f51b5;
+    }
+
+    .triangle-top-left-c2 {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 15.5vh solid #3949ab;
+    }
+
+    .triangle-bottom-left-c2 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-right: 100vw solid transparent;
+        border-top: 15.5vh solid #3949ab;
+    }
+
+    .triangle-top-right-c3 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 15.5vh solid #303f9f;
+    }
+
+    .triangle-bottom-right-c3 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 15.5vh solid #303f9f;
+    }
 }
 
-.bridge:nth-child(8) {
-    width: 0;
-    height: 0;
-    border-right: 100vw solid #303f9f;
-    border-bottom: 17.5vh solid #283593;
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .bridge:nth-child(2) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 14.5vh solid #3f51b5;
+    }
+
+    .bridge:nth-child(4) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #3f51b5;
+        border-bottom: 14.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(6) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-top: 14.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(8) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-bottom: 14.5vh solid #283593;
+    }
+
+    .bridge:nth-child(10) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid #283593;
+        border-bottom: 14.5vh solid transparent;
+    }
+
+    .triangle-top-right-c1 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 14.5vh solid #3f51b5;
+    }
+
+    .triangle-bottom-right-c1 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 14.5vh solid #3f51b5;
+    }
+
+    .triangle-top-left-c2 {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 14.5vh solid #3949ab;
+    }
+
+    .triangle-bottom-left-c2 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-right: 100vw solid transparent;
+        border-top: 14.5vh solid #3949ab;
+    }
+
+    .triangle-top-right-c3 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 14.5vh solid #303f9f;
+    }
+
+    .triangle-bottom-right-c3 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 14.5vh solid #303f9f;
+    }
 }
 
-.bridge:nth-child(10) {
-    width: 0;
-    height: 0;
-    border-left: 100vw solid #283593;
-    border-bottom: 17.5vh solid transparent;
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .bridge:nth-child(2) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 12.5vh solid #3f51b5;
+    }
+
+    .bridge:nth-child(4) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #3f51b5;
+        border-bottom: 12.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(6) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-top: 12.5vh solid #3949ab;
+    }
+
+    .bridge:nth-child(8) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-bottom: 12.5vh solid #283593;
+    }
+
+    .bridge:nth-child(10) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid #283593;
+        border-bottom: 12.5vh solid transparent;
+    }
+
+    .triangle-top-right-c1 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 12.5vh solid #3f51b5;
+    }
+
+    .triangle-bottom-right-c1 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 12.5vh solid #3f51b5;
+    }
+
+    .triangle-top-left-c2 {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 12.5vh solid #3949ab;
+    }
+
+    .triangle-bottom-left-c2 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-right: 100vw solid transparent;
+        border-top: 12.5vh solid #3949ab;
+    }
+
+    .triangle-top-right-c3 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 12.5vh solid #303f9f;
+    }
+
+    .triangle-bottom-right-c3 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 12.5vh solid #303f9f;
+    }
 }
 
-/*.inner:before {
-    width: 0;
-    height: 0;
-    border-left: 100vw solid transparent;
-    border-bottom: 17.5vh solid var(--primary-bg-color);
-    content: '';
-    display: block;
-    float: left;
-}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .bridge:nth-child(2) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 10.5vh solid #3f51b5;
+    }
 
-.inner:after {
-    width: 0;
-    height: 0;
-    border-left: 100vw solid transparent;
+    .bridge:nth-child(4) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #3f51b5;
+        border-bottom: 10.5vh solid #3949ab;
+    }
 
-    border-bottom: 17.5vh solid var(--primary-bg-color);
-    content: '';
-    display: block;
-    float: right;
-}*/
+    .bridge:nth-child(6) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-top: 10.5vh solid #3949ab;
+    }
 
-.triangle-top-right-c1 {
-    width: 0;
-    height: 0;
-    border-left: 100vw solid transparent;
-    border-bottom: 17.5vh solid #3f51b5;
-}
+    .bridge:nth-child(8) {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid #303f9f;
+        border-bottom: 10.5vh solid #283593;
+    }
 
-.triangle-bottom-right-c1 {
-    min-width: 100%;
-    min-height: 15vh;
-    border-left: 100vw solid transparent;
-    border-top: 17.5vh solid #3f51b5;
-}
+    .bridge:nth-child(10) {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid #283593;
+        border-bottom: 10.5vh solid transparent;
+    }
 
-.triangle-top-left-c2 {
-    width: 0;
-    height: 0;
-    border-right: 100vw solid transparent;
-    border-bottom: 17.5vh solid #3949ab;
-}
+    .triangle-top-right-c1 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 10.5vh solid #3f51b5;
+    }
 
-.triangle-bottom-left-c2 {
-    min-width: 100%;
-    min-height: 15vh;
-    border-right: 100vw solid transparent;
-    border-top: 17.5vh solid #3949ab;
-}
+    .triangle-bottom-right-c1 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 10.5vh solid #3f51b5;
+    }
 
-.triangle-top-right-c3 {
-    width: 0;
-    height: 0;
-    border-left: 100vw solid transparent;
-    border-bottom: 17.5vh solid #303f9f;
-}
+    .triangle-top-left-c2 {
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 10.5vh solid #3949ab;
+    }
 
-.triangle-bottom-right-c3 {
-    min-width: 100%;
-    min-height: 15vh;
-    border-left: 100vw solid transparent;
-    border-top: 17.5vh solid #303f9f;
+    .triangle-bottom-left-c2 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-right: 100vw solid transparent;
+        border-top: 10.5vh solid #3949ab;
+    }
+
+    .triangle-top-right-c3 {
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-bottom: 10.5vh solid #303f9f;
+    }
+
+    .triangle-bottom-right-c3 {
+        min-width: 100%;
+        min-height: 15vh;
+        border-left: 100vw solid transparent;
+        border-top: 10.5vh solid #303f9f;
+    }
 }
